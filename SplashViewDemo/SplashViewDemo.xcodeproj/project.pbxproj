@@ -13,6 +13,10 @@
 		1FD82BC91DD05A76007F2DA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD82BC71DD05A76007F2DA2 /* Main.storyboard */; };
 		1FD82BCB1DD05A76007F2DA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD82BCA1DD05A76007F2DA2 /* Assets.xcassets */; };
 		1FD82BCE1DD05A76007F2DA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD82BCC1DD05A76007F2DA2 /* LaunchScreen.storyboard */; };
+		1FD82BD61DD05AD5007F2DA2 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD82BD51DD05AD5007F2DA2 /* SplashViewController.swift */; };
+		1FD82BD81DD05AEF007F2DA2 /* LaunchAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD82BD71DD05AEF007F2DA2 /* LaunchAdViewController.swift */; };
+		1FD82BDA1DD05AFB007F2DA2 /* UserGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD82BD91DD05AFB007F2DA2 /* UserGuideViewController.swift */; };
+		1FD82BDC1DD05B40007F2DA2 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD82BDB1DD05B40007F2DA2 /* Splash.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		1FD82BCA1DD05A76007F2DA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FD82BCD1DD05A76007F2DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FD82BCF1DD05A76007F2DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FD82BD51DD05AD5007F2DA2 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		1FD82BD71DD05AEF007F2DA2 /* LaunchAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchAdViewController.swift; sourceTree = "<group>"; };
+		1FD82BD91DD05AFB007F2DA2 /* UserGuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserGuideViewController.swift; sourceTree = "<group>"; };
+		1FD82BDB1DD05B40007F2DA2 /* Splash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 			isa = PBXGroup;
 			children = (
 				1FD82BC11DD05A76007F2DA2 /* AppDelegate.swift */,
+				1FD82BD51DD05AD5007F2DA2 /* SplashViewController.swift */,
+				1FD82BD71DD05AEF007F2DA2 /* LaunchAdViewController.swift */,
+				1FD82BD91DD05AFB007F2DA2 /* UserGuideViewController.swift */,
+				1FD82BDB1DD05B40007F2DA2 /* Splash.storyboard */,
 				1FD82BC31DD05A76007F2DA2 /* FirstViewController.swift */,
 				1FD82BC51DD05A76007F2DA2 /* SecondViewController.swift */,
 				1FD82BC71DD05A76007F2DA2 /* Main.storyboard */,
@@ -129,6 +141,7 @@
 				1FD82BCE1DD05A76007F2DA2 /* LaunchScreen.storyboard in Resources */,
 				1FD82BCB1DD05A76007F2DA2 /* Assets.xcassets in Resources */,
 				1FD82BC91DD05A76007F2DA2 /* Main.storyboard in Resources */,
+				1FD82BDC1DD05B40007F2DA2 /* Splash.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +154,10 @@
 			files = (
 				1FD82BC61DD05A76007F2DA2 /* SecondViewController.swift in Sources */,
 				1FD82BC21DD05A76007F2DA2 /* AppDelegate.swift in Sources */,
+				1FD82BDA1DD05AFB007F2DA2 /* UserGuideViewController.swift in Sources */,
 				1FD82BC41DD05A76007F2DA2 /* FirstViewController.swift in Sources */,
+				1FD82BD81DD05AEF007F2DA2 /* LaunchAdViewController.swift in Sources */,
+				1FD82BD61DD05AD5007F2DA2 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

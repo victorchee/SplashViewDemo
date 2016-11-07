@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Upr-um-ecq">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="yzA-cG-pJT">
+            <objects>
+                <viewController id="Upr-um-ecq" customClass="SplashViewController" customModule="SplashViewDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qu3-Ic-ssM"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zen-lW-dNU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vgz-EF-RRo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Splash View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ejn-HV-rC9">
+                                <rect key="frame" x="133" y="321.5" width="109.5" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.34901960780000002" blue="0.58039215690000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ejn-HV-rC9" firstAttribute="centerY" secondItem="vgz-EF-RRo" secondAttribute="centerY" id="Vge-u6-dRT"/>
+                            <constraint firstItem="ejn-HV-rC9" firstAttribute="centerX" secondItem="vgz-EF-RRo" secondAttribute="centerX" id="f9i-8N-lSO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="dCL-Vh-dIV" kind="presentation" identifier="PresentLaunchAd" modalTransitionStyle="crossDissolve" id="OnZ-Nq-PVN"/>
+                        <segue destination="bAC-ww-UCM" kind="presentation" identifier="PresentUserGuide" modalTransitionStyle="crossDissolve" id="9VF-sC-pwG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dJu-m2-Bua" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="127" y="116"/>
+        </scene>
+        <!--User Guide View Controller-->
+        <scene sceneID="ezW-au-1il">
+            <objects>
+                <viewController id="bAC-ww-UCM" customClass="UserGuideViewController" customModule="SplashViewDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="p5W-KG-ee2"/>
+                        <viewControllerLayoutGuide type="bottom" id="AxU-h7-A6Q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HfA-Cv-PQN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Guide" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sb9-RF-uwd">
+                                <rect key="frame" x="144" y="323" width="86" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.098039215690000001" green="0.74901960779999999" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Sb9-RF-uwd" firstAttribute="centerY" secondItem="HfA-Cv-PQN" secondAttribute="centerY" id="1Y3-6g-e0i"/>
+                            <constraint firstItem="Sb9-RF-uwd" firstAttribute="centerX" secondItem="HfA-Cv-PQN" secondAttribute="centerX" id="oSb-4K-wK3"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3aK-tr-cZW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="916" y="433"/>
+        </scene>
+        <!--Launch Ad View Controller-->
+        <scene sceneID="5FL-ag-tJ6">
+            <objects>
+                <viewController id="dCL-Vh-dIV" customClass="LaunchAdViewController" customModule="SplashViewDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wZh-tq-afm"/>
+                        <viewControllerLayoutGuide type="bottom" id="BLl-Wt-lMF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yoq-0v-Ix9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Launch Ad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1od-9l-mLZ">
+                                <rect key="frame" x="146.5" y="323" width="81.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.5450980392" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="1od-9l-mLZ" firstAttribute="centerY" secondItem="yoq-0v-Ix9" secondAttribute="centerY" id="Vyb-VV-bda"/>
+                            <constraint firstItem="1od-9l-mLZ" firstAttribute="centerX" secondItem="yoq-0v-Ix9" secondAttribute="centerX" id="zgr-Kb-Tuz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k0A-VV-aQz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="916" y="-249"/>
+        </scene>
+    </scenes>
+</document>
